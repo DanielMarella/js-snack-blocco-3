@@ -16,6 +16,6 @@ export default{
 <HeaderApp />
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@import './style/general.scss'
 </style>
