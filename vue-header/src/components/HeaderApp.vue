@@ -2,20 +2,57 @@
   <header>
     <div>
       <ul>
-        <li>Questo</li>
-        <li>modo</li>
-        <li>di</li>
-        <li>fare</li>
-        <li>mi</li>
-        <li>gasa</li>
+        <li>
+
+        <NavLink v-for="link in links" 
+        :navElement = "link" 
+        />
+        </li>
       </ul>
     </div>
   </header>
 </template>
-
 <script>
+import NavLink from './NavLink.vue';
 export default {
-  name : 'HeaderApp'
+  name : 'HeaderApp',
+
+  component : {
+    NavLink
+  },
+
+
+
+  data() {
+    return {
+
+      links : [
+        {
+                text : 'Questo',
+            },
+
+            {
+                text : 'Questo',
+            },
+
+            {
+                text : 'Questo',
+            },
+
+            {
+                text : 'Questo',
+            },
+
+            {
+                text : 'Questo',
+            },
+            
+            {
+                text : 'Questo'
+            },
+        ]
+    }
+  },
 }
 </script>
 
