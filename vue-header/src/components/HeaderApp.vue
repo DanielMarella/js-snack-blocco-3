@@ -1,13 +1,11 @@
 <template>
   <header>
-    <div>
-      <ul>
-        <li>
+    <div class="nav">
+
         <NavLink v-for="link in links" 
         :navElement = "link" 
         />
-        </li>
-      </ul>
+
     </div>
   </header>
 </template>
@@ -62,10 +60,16 @@ export default {
   }
 
   li{
+    display: flex;
     font-size: 2rem;
     margin: 0 10px;
     text-align: center;
     width: 100px;
     border: 5px solid violet;
+  }
+
+
+  .nav {
+    display: flex;
   }
 </style>

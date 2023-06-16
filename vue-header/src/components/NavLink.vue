@@ -1,9 +1,13 @@
 <template>
     <div>
-        <h1>
+        <ul>
+            <li>
+                {{ navElement.text }}
 
-            {{ navElement.text }}
-        </h1>
+            </li>
+        </ul>
+
+
 
     </div>
 </template>
@@ -19,5 +23,5 @@ export default {
 }
 </script>
 <style lang="scss">
-    
+
 </style>
