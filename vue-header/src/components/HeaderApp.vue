@@ -3,7 +3,6 @@
     <div>
       <ul>
         <li>
-
         <NavLink v-for="link in links" 
         :navElement = "link" 
         />
@@ -17,7 +16,7 @@ import NavLink from './NavLink.vue';
 export default {
   name : 'HeaderApp',
 
-  component : {
+  components : {
     NavLink
   },
 
