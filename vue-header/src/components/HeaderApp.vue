@@ -1,12 +1,12 @@
 <template>
   <header>
-    <div class="nav">
+    <nav class="nav">
 
         <NavLink v-for="link in links" 
         :navElement = "link" 
         />
 
-    </div>
+    </nav>
   </header>
 </template>
 <script>

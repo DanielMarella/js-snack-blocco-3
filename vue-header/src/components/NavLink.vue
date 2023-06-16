@@ -1,5 +1,5 @@
 <template>
-    <div>
+
         <ul>
             <li>
                 {{ navElement.text }}
@@ -9,7 +9,7 @@
 
 
 
-    </div>
+
 </template>
 <script>
 export default {
